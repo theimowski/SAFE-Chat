@@ -22,7 +22,7 @@ module Views =
             | _ ->
                 yield tag "form" ["method", "POST"] (
                     [ p ["class", "subtitle"]
-                        [ Text "Log on using your "
+                        [ Text "Log on using your"
                           a "/oaquery?provider=Google" [] [Text "Google"]
                           Text " or "
                           a "/oaquery?provider=Github" [] [Text "Github"]

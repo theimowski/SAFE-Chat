@@ -41,3 +41,4 @@ packages/
 node_modules/
 project.lock.json
 
+.fake

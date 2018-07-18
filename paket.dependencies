@@ -24,7 +24,6 @@ nuget Fable.Elmish.Browser
 nuget Fable.Elmish.Debugger
 nuget Fable.Websockets.Elmish
 
-clitool Microsoft.DotNet.Watcher.Tools 2.0.0
 clitool dotnet-fable
 
 group UITests
@@ -35,3 +34,10 @@ group UITests
   nuget Expecto
   nuget phantomjs
   nuget Selenium.WebDriver.ChromeDriver
+
+group Build
+    storage: none
+    source https://api.nuget.org/v3/index.json
+    source ~/oss/SAFE-template/nupkg
+
+    nuget SAFE.Build

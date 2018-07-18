@@ -11,4 +11,3 @@ Newtonsoft.Json
 Fable.JsonConverter
 Microsoft.Extensions.Configuration
 Microsoft.Extensions.Configuration.Json
-Microsoft.DotNet.Watcher.Tools
